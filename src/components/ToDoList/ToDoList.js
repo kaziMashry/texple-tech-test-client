@@ -32,8 +32,8 @@ const ToDoList = ({ todos, setReRender, setPrepareUpdate, setUpdateTask }) => {
                             <td>{todo.endTime}</td>
                             <td>{todo.date}</td>
                             <td>
-                                <button className='btn btn-primary' onClick={() => {setPrepareUpdate(true); setUpdateTask(todo)}}>Update</button>
-                                <button className='btn btn-danger ml-2' onClick={() => handleDelete(todo._id)}>Delete</button>
+                                <button className='btn btn-primary m-2' onClick={() => {setPrepareUpdate(true); setUpdateTask(todo)}}>Update</button>
+                                <button className='btn btn-danger m-2' onClick={() => handleDelete(todo._id)}>Delete</button>
                             </td>
                         </tr>
                     })
