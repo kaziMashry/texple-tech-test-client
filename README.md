@@ -1,5 +1,5 @@
 # Texple technology Test
-**Live Site:** [https://texple-tech-test.netlify.app/]
+**Live Site:** [https://texple-tech-test.netlify.app/]\
 **Server side code:** [https://github.com/kaziMashry/texple-tech-test-server]
 
 ### Language, library, and packages:
