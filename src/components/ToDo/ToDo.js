@@ -11,7 +11,7 @@ const ToDo = () => {
     const [updateTask, setUpdateTask] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:5000/allTasks')
+        fetch('https://quiet-eyrie-87850.herokuapp.com/allTasks')
         .then(res => res.json())
         .then(data => setTodos(data));
     }, [reRender]);

@@ -3,7 +3,7 @@ import React from 'react';
 const ToDoList = ({ todos, setReRender, setPrepareUpdate, setUpdateTask }) => {
 
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://quiet-eyrie-87850.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
         .then(res => res.json())

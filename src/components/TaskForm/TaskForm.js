@@ -31,7 +31,7 @@ const TaskForm = ({ setReRender, setPrepareUpdate, prepareUpdate, updateTask }) 
             date: date
         };
 
-        fetch('http://localhost:5000/addTask', {
+        fetch('https://quiet-eyrie-87850.herokuapp.com/addTask', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(task)
@@ -57,7 +57,7 @@ const TaskForm = ({ setReRender, setPrepareUpdate, prepareUpdate, updateTask }) 
             endTime: toTime,
             date: date
         }
-        fetch(`http://localhost:5000/update/${updateTask._id}`, {
+        fetch(`https://quiet-eyrie-87850.herokuapp.com/update/${updateTask._id}`, {
             method: "PATCH",
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify(updatedTask)
