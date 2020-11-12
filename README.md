@@ -16,3 +16,4 @@
 - Word search with public API
 - ToDo list(CRUD operation) with custom API
 
+**Resume:** [https://drive.google.com/file/d/1uL0DDwMPt7Sd9SfUg4bwe1NBFbOC04U5/view]
